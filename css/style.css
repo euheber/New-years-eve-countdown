@@ -138,3 +138,27 @@ footer {
 .socials i:hover {
   color: var(--Soft-red);
 }
+
+
+@media(max-width: 540px){
+  
+.number {
+  height: 100px;
+  width: 70px;
+  font-size: 2rem;
+}
+
+.timer-footer{
+  font-size: 1rem;
+}
+}
+
+@media(max-width: 320px){
+  .timer-footer{
+    font-size: .8rem;
+  }
+
+  .number {
+    height: 80px;
+    width: 50px;}
+}
